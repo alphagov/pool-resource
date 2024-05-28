@@ -1,5 +1,7 @@
 # pool-resource
 
+***Note this is a GOV.UK Pay maintained fork of [concourse/pool-resource](https://github.com/concourse/pool-resource)***
+
 *a pool of locks (modeling semaphores)*
 
 Allows you to lock environments, pipeline flow, or other entities which have to
@@ -334,5 +336,10 @@ docker build -t pool-resource --build-arg base_image=concourse/golang-builder --
 
 ### Contributing
 
-Please make all pull requests to the `master` branch and ensure tests pass
-locally.
+See the [contributing guide](/CONTRIBUTING.md)
+
+
+## Vulnerability Disclosure
+
+GOV.UK Pay aims to stay secure for everyone. If you are a security researcher and have discovered a security vulnerability in this code, we appreciate your help in disclosing it to us in a responsible manner. Please refer to our [vulnerability disclosure policy](https://www.gov.uk/help/report-vulnerability) and our [security.txt](https://vdp.cabinetoffice.gov.uk/.well-known/security.txt) file for details.
+
