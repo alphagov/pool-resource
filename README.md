@@ -1,5 +1,7 @@
 # pool-resource
 
+> DEPRECATED - As of April 2024 this repository is no longer maintainer by the GOV.UK Pay Team. It is no longer required since the original issue this was forked to fix has itself been fixed upstream
+
 ***Note this is a GOV.UK Pay maintained fork of [concourse/pool-resource](https://github.com/concourse/pool-resource)***
 
 *a pool of locks (modeling semaphores)*
